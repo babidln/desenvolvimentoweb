@@ -1,0 +1,291 @@
+.container
+{
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+body
+{
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+	width: 100%;
+	height: 48px;
+	margin-bottom: 2.25em;
+	margin-top: 2.25em;
+}
+
+nav
+{
+	width: 74.46808511%;
+	float: right;
+}
+
+nav li
+{
+	color: #999;
+	margin-left: 0.625em;
+	padding: 0.25em;
+	display: inline-block;
+}
+
+nav li a
+{
+	color: #999;
+	text-decoration: none;
+}
+
+ul
+{
+	text-align: right;
+}
+
+.caixa
+{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 42.55%;
+	margin-top: 2.908125em;
+    height: 250px;
+}
+
+.banner
+{
+	width: 100%;
+	margin-bottom: 2.1875em;
+	background-image: url(imagens/banner.jpg);
+	height: 445.46px;
+}
+
+section
+{
+	padding: 0.08em;
+}
+
+h1
+{
+	font-size: 2.5em;
+	color: #fff;
+}
+.footer
+{
+	color: black;
+}
+
+.p
+{
+	margin-left: 1.75em;
+	color: white;
+}
+
+.dep 
+{
+	margin-left: 1.75em;
+	color: #00CCFF;
+
+}
+
+img
+{
+	max-width: 100%;
+	width: 264px;
+}
+
+p
+{
+	color: black;
+}
+
+footer
+{
+	width: 100%;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+article p 
+{
+	text-align: left;
+}
+
+section p
+{
+	padding: 0.375em;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+*,*:after, *:before
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+.logo
+{
+	width: 20.74%;
+	float: left;
+}
+
+.footer
+{
+	font-size: 0.625em;
+}
+
+article
+{
+	width: 23.4%;
+	float: left;
+	margin-right: 2.13%;
+}
+
+article:last-child
+{
+	margin-right: 0;
+}
+
+img, figure, video, embed
+{
+	max-width: 100%;
+}
+
+h1
+{
+	margin-left: 0.7em;
+}
+
+@media screen and (max-width: 1128px)
+{
+	.container
+	{
+		padding: 0 1.5em 0 1.5em;
+	}
+} 
+
+@media screen and (max-width: 768px)
+{
+	.caixa
+	{
+		width: 65%;
+		top: -50px
+	}
+
+	article
+	{
+		width: 48%;
+		margin-right: 4%;
+		margin-bottom: 1.5em;
+	}
+
+	article:nth-child(even)
+	{
+		margin-right: 0;
+	}
+
+	.logo
+	{
+		width: 25%;
+		margin-top: 0.75em;
+	}
+}
+
+@media screen and (max-width: 718px)
+{
+	.banner
+	{
+		position: relative;
+		float: left;
+		height: 250px;
+	}
+
+	.caixa
+	{
+		width: 100%;
+		position: relative;
+		background: #000;
+		display: block;
+		margin-top: 18.70em;
+	}
+
+	h1
+	{
+		font-size: 1.5625em;
+	}
+
+	section
+	{
+		margin-top: 41.5625em;
+	}
+}
+
+@media screen and (max-width: 640px)
+{
+	nav
+	{
+		width: 100%;
+	}
+
+	nav li
+	{
+		font-size: 0.5em;
+		float: left;
+	}
+
+	nav li:first-child
+	{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 520px)
+{
+	article
+	{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.caixa
+	{
+		padding: 0.75em 0.125em 0.75em 0.125em;
+		position: relative;
+		display: block;
+		width: 100%;
+		background: #000;
+		margin-top: 150px;
+	}
+
+	.banner
+	{
+		height: 200px;
+	}
+
+	section
+	{
+		margin-top: 500px
+	}
+}
+
+.clearfix:before,
+.clearfix:after
+{
+	content: "";
+	display: table;
+}
+
+.clearfix:after
+{
+	clear: both;
+}
+
+.clearfix
+{
+	*zoom:1;
+}
