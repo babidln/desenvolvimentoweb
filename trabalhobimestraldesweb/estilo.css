@@ -1,0 +1,36 @@
+body{
+    color: #64868E;
+    background-color: rgb(185, 236, 228);
+    text-align: center;
+}
+
+
+
+h2{
+    text-align: center;
+	letter-spacing: 5px;
+}   
+img {
+    width: 20px;
+    height: 20px;
+}
+    
+
+
+h6{
+   
+    text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+
+
+#toggle{
+	display: none;
+}
+
+.perfil{
+	width:100px
+	height:100px
+}
+
