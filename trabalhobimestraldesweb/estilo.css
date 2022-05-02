@@ -10,13 +10,16 @@ h2{
     text-align: center;
 	letter-spacing: 5px;
 }   
-img {
+.rs{
     width: 20px;
     height: 20px;
 }
     
 
 
+h5{
+    text-decoration-color: azure;
+}
 h6{
    
     text-transform: uppercase;
@@ -29,8 +32,8 @@ h6{
 	display: none;
 }
 
-.perfil{
-	width:100px
-	height:100px
+.imgjpg{
+	width:200px;
+	height:200px;
 }
 
